@@ -3,14 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57249D992E56ED8500D32CD7 /* TradeDok.app in Sources */ = {isa = PBXBuildFile; fileRef = 57A220EE2C8814930044810B /* TradeDok.app */; };
+		57249D9A2E56ED8500D32CD7 /* TradeDokTests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 57A221012C8814970044810B /* TradeDokTests.xctest */; };
+		57249D9B2E56ED8500D32CD7 /* TradeDokUITests.xctest in Sources */ = {isa = PBXBuildFile; fileRef = 57A2210B2C8814980044810B /* TradeDokUITests.xctest */; };
+		57249DA22E56EDC300D32CD7 /* TradeDok.entitlements in Sources */ = {isa = PBXBuildFile; fileRef = 57A220FC2C8814970044810B /* TradeDok.entitlements */; };
+		57249DA32E56EDC300D32CD7 /* Preview Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 57A220FA2C8814970044810B /* Preview Assets.xcassets */; };
+		57249DA42E56EDC300D32CD7 /* Assets.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 576179782D19250600C06872 /* Assets.xcassets */; };
+		576179792D19250600C06872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576179782D19250600C06872 /* Assets.xcassets */; };
+		5761797A2D19250600C06872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576179782D19250600C06872 /* Assets.xcassets */; };
+		5761797B2D19250600C06872 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576179782D19250600C06872 /* Assets.xcassets */; };
 		57A220F22C8814930044810B /* TradeDokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A220F12C8814930044810B /* TradeDokApp.swift */; };
-		57A220F42C8814930044810B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A220F32C8814930044810B /* ContentView.swift */; };
 		57A220F62C8814930044810B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A220F52C8814930044810B /* Item.swift */; };
-		57A220F82C8814970044810B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A220F72C8814970044810B /* Assets.xcassets */; };
 		57A220FB2C8814970044810B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57A220FA2C8814970044810B /* Preview Assets.xcassets */; };
 		57A221062C8814970044810B /* TradeDokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A221052C8814970044810B /* TradeDokTests.swift */; };
 		57A221102C8814980044810B /* TradeDokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A2210F2C8814980044810B /* TradeDokUITests.swift */; };
@@ -35,11 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		576179782D19250600C06872 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A220EE2C8814930044810B /* TradeDok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradeDok.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A220F12C8814930044810B /* TradeDokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeDokApp.swift; sourceTree = "<group>"; };
-		57A220F32C8814930044810B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		57A220F52C8814930044810B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
-		57A220F72C8814970044810B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57A220FA2C8814970044810B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57A220FC2C8814970044810B /* TradeDok.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TradeDok.entitlements; sourceTree = "<group>"; };
 		57A221012C8814970044810B /* TradeDokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeDokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,6 +54,26 @@
 		57A2210F2C8814980044810B /* TradeDokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeDokUITests.swift; sourceTree = "<group>"; };
 		57A221112C8814980044810B /* TradeDokUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeDokUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		57249D932E56ED2B00D32CD7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				EditTradeEntryView.swift,
+				StatisticsView.swift,
+				TradeEntryView.swift,
+				TradesTableView.swift,
+			);
+			target = 57A220ED2C8814930044810B /* TradeDok */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		572913702D191C33006FA437 /* Assets */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Assets; sourceTree = "<group>"; };
+		5731CFD72D174BC800E8D36C /* Model */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Model; sourceTree = "<group>"; };
+		5731D00F2D17572600E8D36C /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (57249D932E56ED2B00D32CD7 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		57A220EB2C8814930044810B /* Frameworks */ = {
@@ -97,12 +123,14 @@
 		57A220F02C8814930044810B /* TradeDok */ = {
 			isa = PBXGroup;
 			children = (
+				572913702D191C33006FA437 /* Assets */,
+				5731CFD72D174BC800E8D36C /* Model */,
 				57A220F12C8814930044810B /* TradeDokApp.swift */,
-				57A220F32C8814930044810B /* ContentView.swift */,
 				57A220F52C8814930044810B /* Item.swift */,
-				57A220F72C8814970044810B /* Assets.xcassets */,
 				57A220FC2C8814970044810B /* TradeDok.entitlements */,
 				57A220F92C8814970044810B /* Preview Content */,
+				5731D00F2D17572600E8D36C /* Views */,
+				576179782D19250600C06872 /* Assets.xcassets */,
 			);
 			path = TradeDok;
 			sourceTree = "<group>";
@@ -146,6 +174,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				572913702D191C33006FA437 /* Assets */,
+				5731CFD72D174BC800E8D36C /* Model */,
 			);
 			name = TradeDok;
 			productName = TradeDok;
@@ -196,7 +228,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
-				LastUpgradeCheck = 1540;
+				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					57A220ED2C8814930044810B = {
 						CreatedOnToolsVersion = 15.4;
@@ -237,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				57A220FB2C8814970044810B /* Preview Assets.xcassets in Resources */,
-				57A220F82C8814970044810B /* Assets.xcassets in Resources */,
+				5761797A2D19250600C06872 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +277,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576179792D19250600C06872 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5761797B2D19250600C06872 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +296,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57A220F42C8814930044810B /* ContentView.swift in Sources */,
+				57249DA22E56EDC300D32CD7 /* TradeDok.entitlements in Sources */,
+				57249DA32E56EDC300D32CD7 /* Preview Assets.xcassets in Sources */,
+				57249DA42E56EDC300D32CD7 /* Assets.xcassets in Sources */,
+				57249D992E56ED8500D32CD7 /* TradeDok.app in Sources */,
+				57249D9A2E56ED8500D32CD7 /* TradeDokTests.xctest in Sources */,
+				57249D9B2E56ED8500D32CD7 /* TradeDokUITests.xctest in Sources */,
 				57A220F62C8814930044810B /* Item.swift in Sources */,
 				57A220F22C8814930044810B /* TradeDokApp.swift in Sources */,
 			);
@@ -335,6 +374,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -398,6 +438,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -428,6 +469,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TradeDok/Preview Content\"";
 				DEVELOPMENT_TEAM = N4KM95XUZT;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -456,6 +498,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"TradeDok/Preview Content\"";
 				DEVELOPMENT_TEAM = N4KM95XUZT;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -478,10 +521,10 @@
 		57A221192C8814980044810B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N4KM95XUZT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -497,10 +540,10 @@
 		57A2211A2C8814980044810B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N4KM95XUZT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -516,9 +559,9 @@
 		57A2211C2C8814980044810B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N4KM95XUZT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -533,9 +576,9 @@
 		57A2211D2C8814980044810B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = N4KM95XUZT;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;

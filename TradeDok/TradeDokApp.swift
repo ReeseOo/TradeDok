@@ -8,6 +8,7 @@
 import SwiftUI
 import SwiftData
 
+
 @main
 struct TradeDokApp: App {
     var sharedModelContainer: ModelContainer = {
