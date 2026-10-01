@@ -19,7 +19,7 @@ This demo app was first built two years ago and was intended to support native M
 
 Roadmap:
 There are multiple features I will continue to add to make this fully fleshed out:
-- **Most important of all features, persistence must be implemented via SwiftData**
+- **Most important of all features, persistence must be implemented via SwiftData**. Currently tradeEntries (the main data holding all trades) distributes itself via @Binding variables, but I need to use @Query for variables using tradeEntires and change tradeEntries to an @Model class.
 - The UI should have a modern appearance that uses SwiftUI capabilities to the fullest
 - Additional statistics should be displayed and allow programmable statistics from user input
 - Graphs and API integration for live stocks data
