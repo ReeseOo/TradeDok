@@ -8,11 +8,11 @@ First, there is the Model folder, which does the backend data processing (such a
 
 Secondly, there's the Views folder. This displays views using SwiftUI. It contains ContentView.swift, EditTradeEntryView.swift, StatisticsView.swift, TradeEntryView.swift, and TradesTableView.swift.
 
-This demo app was first built two years ago and was intended to support native MacOS use. State variables and bind
+This demo app was first built two years ago and was intended to support native MacOS use. 
 
 Roadmap:
-There are multiple features that need to be added to make this fully fleshed out:
-- **Most importantly, persistence must be implemented via SwiftData**
+There are multiple features I will continue to add to make this fully fleshed out:
+- **Most important of all features, persistence must be implemented via SwiftData**
 - The UI should have a modern appearance that uses SwiftUI capabilities to the fullest
 - Additional statistics should be displayed and allow programmable statistics from user input
 - Graphs and API integration for live stocks data
