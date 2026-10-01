@@ -33,7 +33,7 @@ struct TradeEntry: Identifiable {
             return nil
         }
     }
-    var isGain: Bool? { // ChatGPT wrote this condition
+    var isGain: Bool? { 
         guard let exitPrice = exit else { return false } // If no exit price, return false
         return exitPrice > entry
     }

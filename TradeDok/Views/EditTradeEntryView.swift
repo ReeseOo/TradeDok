@@ -24,20 +24,36 @@ struct EditTradeEntryView: View {
             return $tradeEntries[index]
         }
     
-    @FocusState private var focus: FormFieldFocus?  // Needed for changing text field focus. Constantly changing enum case based on what text field user hits enter in
-    
+    @FocusState private var focus: FormFieldFocus?
+    @Environment(\.dismiss) var dismiss
+
     let currencyStyle = FloatingPointFormatStyle<Double>.Currency(code: "USD")
 
     
     var body: some View {
         
-        VStack {
+        VStack(spacing: 0) {
+            // Sheet header with Cancel and Submit buttons
+            HStack {
+                Button("Cancel") {
+                    dismiss()
+                }
+                Spacer()
+                Text("Edit Trade")
+                    .font(.headline)
+                Spacer()
+                Button("Submit") {
+                    updateTradeEntry()
+                    dismiss()
+                }
+                .disabled(trade == nil)
+            }
+            .padding()
+
+            Divider()
+
             Form {
                 Section {
-                    Text("Edit your trades. Double click on a single row and click edit to choose your trade entry.")
-                        .font(.title)
-                        .offset(x: -100)
-                        .padding(.bottom)
                     
                     TextField(text: $newTicker,
                               prompt: Text(trade?.ticker.wrappedValue ?? "")) {
@@ -95,15 +111,10 @@ struct EditTradeEntryView: View {
                     
                     DatePicker("New date: ", selection: $newDate, in: ...Date())
                     
-                    Button("Submit changes") {
-                        updateTradeEntry()
-                    }
-                    .disabled(trade == nil)
                 }
             }
         }
-        .padding(50)
-        .frame(width: 500)
+        .frame(width: 420, height: 400)
         .onChange(of: editingTradeID) {
             if let trade = trade {
                 newDate = trade.date.wrappedValue
